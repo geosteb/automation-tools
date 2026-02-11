@@ -11,14 +11,14 @@ Automated tool to distinguish and separate **Black & White** images from **Color
 
 * **Logic:** The algorithm converts pixel data into the **HSV** color space and calculates the average saturation.
 * **Decision Engine:** If the average saturation falls below the calibrated threshold (`sat < 0.250`), the image is classified as B&W and moved to the destination folder.
-* **Stack:** Python 3.x, Pillow (PIL), Colorsys.
+* **Stack:** Python 3.x, Pillow (PIL), Colorsys. With AI-Assisted Development.
 
 ### 2. Recursive PDF Copier
 A file mining utility that locates and centralizes PDF documents hidden within complex subfolder structures.
 
 * **Recursive Scan:** Performs a deep search through all nested directories.
 * **Collision Safety:** Features an **intelligent renaming system**. If files share the same name across different paths, it appends a numeric suffix to prevent data loss or overwrites.
-* **Stack:** Python 3.x, Shutil, OS.
+* **Stack:** Python 3.x, Shutil, OS. With AI-Assisted Development.
 
 ---
 
